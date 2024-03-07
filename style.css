@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-1{
+    background-image:url(./background/Page\ 1.jpg);
+    height: 100vh;
+   
+}
+
+.page-2{
+    background-image:url(./background/Page\ 2.jpg);
+    height: 100vh;
+}
+
+.page-3{
+    background-image:url(./background/Page\ 3.jpg);
+    height: 100vh;
+}
+
+.page-4{
+    background-image:url(./background/Page\ 4.jpg);
+    height: 100vh;
+}
+
+.page-5{
+    background-image:url(./background/Page\ 5.jpg);
+    height: 100vh;
+}
+.instagram{
+    height: 60px;
+    width: 60px;
+}
+
+.linkedin{
+    height: 47px;
+    width: 47px;
+}
+
+.github{
+    height: 55px;
+    width: 55px;
+}
+
+/*#region Navbar*/
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #505050;
+    align-items: center;
+}
+
+.Navbar-title{
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Navbar-Links{
+    display: flex;
+    align-items: center;
+    margin-right:  20px;
+}
+
+/*#endregion*/
