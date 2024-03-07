@@ -53,7 +53,7 @@
 }
 
 .Navbar-title{
-    margin-left: 20px;
+    margin: 0px 20px 0px 20px;
     color: #ffffff;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
@@ -62,7 +62,52 @@
 .Navbar-Links{
     display: flex;
     align-items: center;
-    margin-right:  20px;
+    margin: 0px 20px 0px 20px;
 }
+
+/*#endregion*/
+
+/*#region info*/
+.info{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.info-text-title{
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+    font-style: normal;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+    gap: 100px;
+    
+}
+
+.info-text-paraghraf{
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 20px;
+    font-style: normal;
+    color: #000000;
+    height: 400px;
+    width: 800px;
+    background-color: transparent;
+}
+
+.info-image{
+    width: 310px;
+}
+
 
 /*#endregion*/
