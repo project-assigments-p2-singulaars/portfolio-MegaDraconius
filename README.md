@@ -43,6 +43,7 @@ por el momento al no contar con dependencias ni librerias no se necesita de nada
 - [x] Create the components on figma
 - [x] Start to create the components on html and css
 - [x] Create the readme file
+- [x] Create the deploy page (Using netlify)
 - [ ] Add a page about me
 - [ ] Add a page with tech stack 
 - [ ] Add a page with projects
