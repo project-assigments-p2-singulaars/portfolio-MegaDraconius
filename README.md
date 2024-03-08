@@ -7,7 +7,7 @@ Pequeño proyecto de portfolio que ira creciendo con el avance del curso de prog
 
 Para poder ver la demo siga el enlace:
 
-[Portfolio en Figma](https://loginandacces.netlify.app/)
+[Portfolio en Figma](https://www.figma.com/file/P6BOUSy9VtRP5EfHGHVrgh/Figma-basics?type=design&node-id=1669-162202&mode=design&t=hhMlXceKHs3QNpD6-0)
 
 
 ## Deployment
