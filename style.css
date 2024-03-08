@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+.page-1{
+    background: rgb(16,233,86);
+    background: radial-gradient(circle, rgba(16,233,86,1) 0%, rgba(0,0,0,1) 55%);
+}
+
+/*#region Navbar*/
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #10E956;
+    align-items: center;
+}
+
+.Navbar-title{
+    margin: 10px;
+    color: #ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*#endregion*/
+
+/*#region info*/
+.info{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.info-text-title-bold{
+    color: #10E956;
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+}
+.info-text-title{
+    display: flex;
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+    font-style: normal;
+    color: #ffffff;
+    gap: 100px;
+    
+}
+
+.info-text-paraghraf{
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 12px;
+    font-style: normal;
+    color: #ffffff;
+    height: 400px;
+    width: 800px;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.info-image{
+    width: 750px;
+}
+
+/*#endregion*/
+
+.personal-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link-github{
+    background-color: #333333;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-github:hover{
+    background-color: #181818;
+}
+
+.link-linkedin{
+    background-color: #0077B5;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-linkedin:hover{
+    background-color: #074b6f;
+}
+
+.link-whatsapp{
+    background-color: #10BA46;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-whatsapp:hover{
+    background-color: #0a8430;
+}
+
+.link-instagram{
+    background-color: #FB00C4;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-instagram:hover {
+    background-color: #510240;
+}
+
+
+.fa-brands{
+    color: #ffffff;
+    width: 60px;
+}
+
+.footer-text{
+    display: flex;
+    color: #10E956;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 15px;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
