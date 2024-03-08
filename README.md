@@ -5,7 +5,9 @@ Pequeño proyecto de portfolio que ira creciendo con el avance del curso de prog
 
 ## Demo Figma
 
-Insert gif or link to demo
+Para poder ver la demo siga el enlace:
+
+[Portfolio en Figma](https://loginandacces.netlify.app/)
 
 
 ## Deployment
