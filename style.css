@@ -3,44 +3,13 @@
     padding: 0;
 }
 
+body{
+    background-color: #000000;
+}
+
 .page-1{
-    background-image:url(./background/Page\ 1.jpg);
-    height: 100vh;
-   
-}
-
-.page-2{
-    background-image:url(./background/Page\ 2.jpg);
-    height: 100vh;
-}
-
-.page-3{
-    background-image:url(./background/Page\ 3.jpg);
-    height: 100vh;
-}
-
-.page-4{
-    background-image:url(./background/Page\ 4.jpg);
-    height: 100vh;
-}
-
-.page-5{
-    background-image:url(./background/Page\ 5.jpg);
-    height: 100vh;
-}
-.instagram{
-    height: 60px;
-    width: 60px;
-}
-
-.linkedin{
-    height: 47px;
-    width: 47px;
-}
-
-.github{
-    height: 55px;
-    width: 55px;
+    background: rgb(16,233,86);
+    background: radial-gradient(circle, rgba(16,233,86,1) 0%, rgba(0,0,0,1) 55%);
 }
 
 /*#region Navbar*/
@@ -48,21 +17,16 @@
 .Navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #505050;
+    background-color: #10E956;
     align-items: center;
 }
 
 .Navbar-title{
-    margin: 0px 20px 0px 20px;
+    margin: 10px;
     color: #ffffff;
     font-family: "Krona One", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
-}
-.Navbar-Links{
-    display: flex;
-    align-items: center;
-    margin: 0px 20px 0px 20px;
 }
 
 /*#endregion*/
@@ -77,19 +41,25 @@
 .info-text{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-
-
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
+.info-text-title-bold{
+    color: #10E956;
+    font-family: "Krona One", sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+}
 .info-text-title{
+    display: flex;
     font-family: "Krona One", sans-serif;
     font-weight: 200;
     font-size: 35px;
     font-style: normal;
     color: #ffffff;
-    -webkit-text-stroke: 1px #000000;
     gap: 100px;
     
 }
@@ -97,17 +67,109 @@
 .info-text-paraghraf{
     font-family: "Krona One", sans-serif;
     font-weight: 40;
-    font-size: 20px;
+    font-size: 12px;
     font-style: normal;
-    color: #000000;
+    color: #ffffff;
     height: 400px;
     width: 800px;
     background-color: transparent;
+    margin-top: 15px;
 }
 
 .info-image{
-    width: 310px;
+    width: 750px;
+}
+
+/*#endregion*/
+
+.personal-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link-github{
+    background-color: #333333;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-github:hover{
+    background-color: #181818;
+}
+
+.link-linkedin{
+    background-color: #0077B5;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-linkedin:hover{
+    background-color: #074b6f;
+}
+
+.link-whatsapp{
+    background-color: #10BA46;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-whatsapp:hover{
+    background-color: #0a8430;
+}
+
+.link-instagram{
+    background-color: #FB00C4;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color:#ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 25px;
+}
+
+.link-instagram:hover {
+    background-color: #510240;
 }
 
 
-/*#endregion*/
+.fa-brands{
+    color: #ffffff;
+    width: 60px;
+}
+
+.footer-text{
+    display: flex;
+    color: #10E956;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 15px;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
