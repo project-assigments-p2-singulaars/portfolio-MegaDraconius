@@ -1,59 +1,52 @@
-# Web Porfolio
+# My Portfolio
 
-## Descripción
-Crearemos nuestro portafolio online haciendo uso de HTML y CSS. Este proyecto se irá actualizando a medida que vayamos aprendiendo nuevas tecnologías.
+Pequeño proyecto de portfolio que ira creciendo con el avance del curso de programación full stack en el cual estoy inmerso.
 
-## Contexto del proyecto
-### ¿Qué es un portfolio online?
-Un portfolio online es la mejor manera de mostrar tu trabajo y permite que otras personas sepan más de ti. Además de esto, es una de las mejores formas para expresar tu personalidad, experiencia y capacidades.
 
-### ¿Por qué es importante tener un portfolio online?
-Sólo toma unos segundos el perder la atención de un visitante, así que asegúrate de utilizar estos segundos sabiamente. Tus clientes potenciales y/o la empresa que está buscando contratarte verán primero el diseño y si les gusta lo que ven, ellos seguirán buscando para encontrar más detalles. En otras palabras, necesitas una sorprendente y atractiva presentación de tus trabajos.
+## Demo Figma
 
-Esto se puede hacer de muchas maneras – diapositivas, presentaciones en video, galerías con vistas previas, etc-. Por ejemplo, si eres un programador puedes crear tu sitio web mostrando los proyectos que desarrollaste asegurandote que el usuario visualmente quiera entrar y ver lo creado, para lo cual puedes usar imagenes claras, tecnologías usadas y links de las soluciones (si aplica). Adicional, será importante contar un poco de ti y de la experiencia que tienes como desarrollador,de manera transversal tus canales de contacto, puede ser un formulario, botones de mensajería instantanea, tus perfiles profesionales como linkedIn, github y correos profesionales.
+Insert gif or link to demo
 
-### Requerimientos técnicos
-1. El proyecto DEBE utilizar el panel de señalización Kanban.
-2. La página web DEBE ser responsive.
-3. El proyecto DEBE ser lo más escalable posible. Ya que se irá actualizando a medida que vayamos aprendiendo nuevas tecnologías.
-4. El proyecto DEBE ser desarrollado con HTML y CSS. 
-5. Utilizar Gitflow para el desarrollo del código.
-6. Se DEBE hacer un diseño en Figma para cada módulo de la web.
-7. Se hace primero el diseño en figma y después la maquetación en HTML/CSS
-8. Se debe desplegar el proyecto.
 
-### Bonus Track
-- Aplicar criterios de accesibilidad.
+## Deployment
 
-## Modalidades Pedagógicas
-- El proyecto será individual (se puede pedir ayuda a los compañeros).
-- Se realizará en dos Sprints:
-- Sprint I, entrega viernes 08/04:
-- Módulos: Menu, Header, Footer
-- Sprint II, entrega viernes 15/04:
-- Módulos: Sección About Me, Sección Proyectos
+Para poder hacer el deploy en su navegador siga el siguiente enlace de netlify:
 
-## Modalidades de Evaluación
-- La evaluación se realizará mediante comentarios orales el día de la presentación.
-- Se hará también una dinámica de autoevaluación.
 
-### Entregables
-- Repositorio con el fichero README.md explicando:
-  - Descripción del proyecto
-  - Link del despliegue
-  - Demo (Figma)
-  - Herramientas utilizadas
-  - Cómo instalar el proyecto en el ordenador (local)
-- Link del deploy del porfolio
 
-### ¿Qué competencias se evalúan?
-- Maquetar una web nivel 3
-- Crear una interfaz de usuario web estática y adaptable nivel 3
+![](https://cdn.icon-icons.com/icons2/2699/PNG/512/netlify_logo_icon_169924.png)
 
-## Recursos
-- [Link inspiración 1](https://bedecked-temple-4d4.notion.site/Links-de-Inspiraci-n-aef59e8285c24c4eba171b2290b74e58)
-- [Link inspiración 2](https://dribbble.com/tags/react_portfolio)
-- [Link inspiración 3](https://dribbble.com/tags/portfolio)
-- [Porfolio guillem](https://www.guillemmartinez.com)
-- [Porfolio Alejandra](https://alemcuitino.vercel.app)
-- [Porfolio Carla](https://porfolio-carladev.vercel.app)
+
+[My Portfolio](https://loginandacces.netlify.app/)
+
+## Tech Stack
+
+- `HTML`
+- `CSS`
+
+
+
+## Run Locally
+
+Clone el proyecto
+
+```bash
+  git clone https://github.com/project-assigments-p2-singulaars/portfolio-MegaDraconius.git
+```
+por el momento al no contar con dependencias ni librerias no se necesita de nada más.
+
+## Things to do
+
+- [x] Search an idea in internet
+- [x] Create the components on figma
+- [x] Start to create the components on html and css
+- [x] Create the readme file
+- [ ] Add a page about me
+- [ ] Add a page with tech stack 
+- [ ] Add a page with projects
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/project-assigments-p2-singulaars/portfolio-MegaDraconius.git)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://es.linkedin.com/in/jorge-ivan-vallejos-cardozo-b37296182)
+
