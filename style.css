@@ -173,3 +173,30 @@ a{
     color: #ffffff;
     text-decoration: none;
 }
+
+.footer-paragraph{
+    display: flex;
+    color: #ffffff;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 35px;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #10E956;
+    padding: 30px;
+    flex-direction: column;
+    margin:100px;
+    
+}
+
+.contact{
+    display: flex;
+    color: #10E956;
+    font-family: "Krona One", sans-serif;
+    font-weight: 40;
+    font-size: 30px;
+    justify-content: center;
+    padding: 30px;
+
+}
