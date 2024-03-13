@@ -25,11 +25,48 @@
         right: 0px;
         min-width: 100%;
         min-height: 100%;
-        width: auto;
-        height: auto;
+        width: 100vh;
+        height: 100vh;
         z-index: -1000;
         overflow: hidden;
 
+    }
+
+    .page-3{
+      height:100vh;
+     background-color: #000;
+    }
+
+    th{
+      color: #fff;
+    }
+
+    td{
+      color: #fff;
+    }
+
+    .tooling-title{
+      display: flex;
+      color: #f0f9fe;
+      font-family: "Madimi One", sans-serif;
+      font-size: 60px;
+      justify-content: center;
+      padding: 10px;
+      margin: 20px 20px;
+      text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1; 
+    }
+
+    .icon-table{
+      font-size: 40px;
+      color: hsl(307, 100%, 50%);
+    }
+
+    .tooling-table{
+      display: grid;
+      grid-template-columns: repeat(5, 2fr);
+      grid-template-rows: repeat(2, 50px);
+      grid-gap: 30px;
+      justify-items: center;
     }
 
     /*#region Navbar*/
@@ -170,12 +207,13 @@
       
     .footer-text{
         display: flex;
-        color: #10E956;
+        color: #ffffff;
         font-family: "Krona One", sans-serif;
         font-weight: 40;
         font-size: 15px;
         justify-content: center;
         padding: 30px;
+        margin-top: 80px;
         background: #3b41c5;
         background: linear-gradient(
             to right,#000000,
@@ -201,7 +239,7 @@
         border-radius: 20px;
         box-shadow: inset 0 0 30px #1900ff, 0 0 30px #ff00ae;      
     }
-    
+   
     .contact{
         display: flex;
         color: #f0f9fe;
@@ -210,11 +248,12 @@
         font-size: 60px;
         justify-content: center;
         padding: 30px;
-        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
-    
+        margin: 60px 60px;
+        text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;    
     }
     
     .page-4{
+        height: 100vh;
         display: flex;
         justify-content: center;
     }
@@ -276,8 +315,9 @@
     
   .item a {
     text-decoration: none;
-    width: 29rem;
-    height: 4.8rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
     background-color: #000000;
     display: flex;
     justify-content: center;
