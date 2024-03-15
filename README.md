@@ -31,7 +31,7 @@ Para poder hacer el deploy en su navegador siga el siguiente enlace de netlify:
 ## Tech Stack
 
 - `HTML`
-- `CSS`
+- `CSS`gi
 - `Javascript`
 
 ## Run Locally
