@@ -30,7 +30,7 @@ Para poder hacer el deploy en su navegador siga el siguiente enlace de netlify:
 
 ## Run Locally
 
-Clone el proyecto
+🤖 Clone el proyecto 🤖
 
 ```bash
   git clone https://github.com/project-assigments-p2-singulaars/portfolio-MegaDraconius.git
