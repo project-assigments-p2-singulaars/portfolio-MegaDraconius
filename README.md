@@ -32,8 +32,7 @@ Para poder hacer el deploy en su navegador siga el siguiente enlace de netlify:
 
 - `HTML`
 - `CSS`
-
-
+- `Javascript`
 
 ## Run Locally
 
