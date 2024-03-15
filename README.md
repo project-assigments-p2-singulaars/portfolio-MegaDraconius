@@ -5,9 +5,16 @@ Pequeño proyecto de portfolio que ira creciendo con el avance del curso de prog
 
 ## Demo Figma
 
-Para poder ver la demo siga el enlace:
+Previews de la pagina hecha con figma:
 
-[Portfolio en Figma](https://www.figma.com/file/P6BOUSy9VtRP5EfHGHVrgh/Figma-basics?type=design&node-id=1669-162202&mode=design&t=hhMlXceKHs3QNpD6-0)
+
+![](/resources/Captura%20de%20pantalla%202024-03-15%20090334.png)
+![](/resources/Captura%20de%20pantalla%202024-03-15%20090343.png)
+![](/resources/Captura%20de%20pantalla%202024-03-15%20090353.png)
+![](/resources/Captura%20de%20pantalla%202024-03-15%20090423.png)
+
+Para acceder a ella sigue el siguiente enlace: [Portfolio en Figma](https://www.figma.com/file/P6BOUSy9VtRP5EfHGHVrgh/Figma-basics?type=design&node-id=1669-162202&mode=design&t=hhMlXceKHs3QNpD6-0)
+
 
 
 ## Deployment
@@ -35,6 +42,10 @@ Para poder hacer el deploy en su navegador siga el siguiente enlace de netlify:
 ```bash
   git clone https://github.com/project-assigments-p2-singulaars/portfolio-MegaDraconius.git
 ```
+```bash
+  git fork https://github.com/project-assigments-p2-singulaars/portfolio-MegaDraconius.git
+```
+
 por el momento al no contar con dependencias ni librerias no se necesita de nada más.
 
 ## Things to do
